@@ -3,7 +3,8 @@
 // import Functions from './typescript/Functions';
 // import Counter from './typescript/components/Counter';
 // import CounterWithHook from './typescript/components/CounterWithHook';
-import Login from './typescript/components/Login';
+// import Login from './typescript/components/Login';
+import Users from './typescript/components/Users';
 
 const App = () => {
     return (
@@ -16,7 +17,8 @@ const App = () => {
             {/* <Functions /> */}
             {/* <Counter /> */}
             {/* <CounterWithHook /> */}
-            <Login />
+            {/* <Login /> */}
+            <Users />
         </div>
     );
 };
