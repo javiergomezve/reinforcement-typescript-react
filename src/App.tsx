@@ -4,7 +4,8 @@
 // import Counter from './typescript/components/Counter';
 // import CounterWithHook from './typescript/components/CounterWithHook';
 // import Login from './typescript/components/Login';
-import Users from './typescript/components/Users';
+// import Users from './typescript/components/Users';
+import Form from './typescript/components/Form';
 
 const App = () => {
     return (
@@ -18,7 +19,8 @@ const App = () => {
             {/* <Counter /> */}
             {/* <CounterWithHook /> */}
             {/* <Login /> */}
-            <Users />
+            {/* <Users /> */}
+            <Form />
         </div>
     );
 };
