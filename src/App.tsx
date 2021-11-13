@@ -1,7 +1,8 @@
 // import BasicTypes from './typescript/BasicTypes';
 // import LiteralObjects from './typescript/LiteralObjects';
 // import Functions from './typescript/Functions';
-import Counter from './typescript/components/Counter';
+// import Counter from './typescript/components/Counter';
+import CounterWithHook from './typescript/components/CounterWithHook';
 
 const App = () => {
     return (
@@ -12,7 +13,8 @@ const App = () => {
             {/* <BasicTypes /> */}
             {/* <LiteralObjects /> */}
             {/* <Functions /> */}
-            <Counter />
+            {/* <Counter /> */}
+            <CounterWithHook />
         </div>
     );
 };
